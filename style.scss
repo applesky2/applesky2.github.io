@@ -38,19 +38,19 @@ html {
 }
 
 body {
-    color: #515151;
+    color: black;
     background-color: #FAFAFA;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
 a {
-    color: #515151;
+    color: black;
     text-decoration: none;
     transition: all 0.3s;
     &:hover,
     &:focus {
-        color: #EC407A;
+        color:#fff;
         text-decoration: dotted;
     }
 }
@@ -309,6 +309,7 @@ tbody tr:nth-child(odd) th {
     background-repeat:no-repeat;
     background-size: cover; 
     background-position:center;
+    background:currentColor;
     .img-circle {
         height: auto;
         width: 20%;
@@ -381,6 +382,8 @@ tbody tr:nth-child(odd) th {
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
+    background: url(./images/1.jpg) no-repeat;
+    background-size: contain;
     @media (min-width: 38rem) {
         margin-top: 0;
         margin-left: 20%;
