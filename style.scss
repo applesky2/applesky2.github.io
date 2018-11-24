@@ -275,7 +275,7 @@ tbody tr:nth-child(odd) th {
 
 .top {
     position: fixed;
-    background: #EC407A;
+    // background: #EC407A;
     height: 3px;
     width: 100%;
     top: 0;
@@ -293,11 +293,12 @@ tbody tr:nth-child(odd) th {
         padding-left: 9px;
         padding-right: 9px;
         text-align: center;
-        border: 2px #EC407A solid;
-        color: #EC407A;
+        border: 2px lightseagreen;
+        color: lightseagreen;
+        border-radius: 20%;
         &:hover,
         &:focus {
-            color: #fff;
+            color: lightseagreen;
             border-color: #fff;
             background: #EC407A;
         }
@@ -309,7 +310,7 @@ tbody tr:nth-child(odd) th {
     background-repeat:no-repeat;
     background-size: cover; 
     background-position:center;
-    background:currentColor;
+    background:rgb(81,81,81);
     .img-circle {
         height: auto;
         width: 20%;
@@ -420,6 +421,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .post-list {
+    background: rgba(255,255,255,0.3)
+    
     h2 {
         margin-top: 1.3rem;
     }
