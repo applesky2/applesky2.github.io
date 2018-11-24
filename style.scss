@@ -383,7 +383,7 @@ tbody tr:nth-child(odd) th {
     margin-right: auto;
     overflow: auto;
     background: url(./images/1.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
     @media (min-width: 38rem) {
         margin-top: 0;
         margin-left: 20%;
