@@ -1,22 +1,51 @@
-# main text of home
-name: Jane Doe
-bio: A Girl who travels the world eating noodles
+name:               "Ink"
+description:        "A minimalistic jekyll theme for humans"
 
-# twitter summary info
-description: A blog about technology and stuff related
+url:                ""
+author:             "thinker3197"
+email:              "jhondoe@abc.com"
+gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
+twitter:            "jhondoe"
+email:              "jhondoe@abc.com"
+github:             "jhondoe"
+pinterest:          "jhondoe"
+linkedin:           "jhondoe"
+facebook:           "jhondoe"
 
-picture: assets/images/picture.jpg
+disqus_shortname:   "thinker3197"
 
-url: http://koppl.in/violet
-# your url: http://USERNAME.github.io
+background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
-# if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-email: me@jane.doe
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "/about"
+  - name:           "Download"
+    href:           "/releases"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
 gems:
-  - jekyll-seo-tag
-
-exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
+  - jekyll-paginate
