@@ -293,14 +293,14 @@ tbody tr:nth-child(odd) th {
         padding-left: 9px;
         padding-right: 9px;
         text-align: center;
-        border: 2px lightseagreen;
+        border: 2px solid lightseagreen;
         color: lightseagreen;
         border-radius: 20%;
         &:hover,
         &:focus {
             color: lightseagreen;
             border-color: #fff;
-            background: #EC407A;
+            background: orange;
         }
     }
 }
@@ -880,5 +880,7 @@ tbody tr:nth-child(odd) th {
     color: #009999
 }
 
-
+.add li {
+    background: rgba(255,255,255,0.3)
+}
 /* Literal.Number.Integer.Long */
